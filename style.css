@@ -9,30 +9,31 @@ body {
   background-color: #1b263b;    /*Darkest blue for background */
 }
 
-.img-circle{
-  border-radius: 50%;
-}
-
 /* header & navigation */
 header {
   background-color:  #415a77;
   opacity: 0.4;
 }
 
+
 /*Heading styles */
-h1{
+h1, h2, h3 {
   font-family: 'Times New Roman', Times, Serif;
   color: white;
 }
 
 
-
-.wrapper{
-  width: 350px;
-  margin: auto;
+.img-circle{
+  border-radius: 50%;
 }
 
-/* Links */
+
+/*.wrapper{
+  width: 350px;
+  margin: auto;
+}`*/
+
+/* Styled links using pseudo-classes */
   a:link{color: #005ddb;}   /*Blue link */
   a:visited{color: #128202;}  /*Green visited */
   a:hover{color: #d3081c;}    /* Red hover */
