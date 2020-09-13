@@ -1,11 +1,28 @@
-
+/* Set box-sizing to all html elements */
+* {
+  box-sizing: border-box;
+}
 
 .wrapper{
   width: 350px;
   margin: auto;
 }
 
-
+/* Background color of website */
 body {
-  background-color: #1b263b;
+  background-color: #1b263b;  /*Darkest blue for background */
 }
+
+
+/* header & navigation */
+header {
+  background-color:  #415a77;
+  opacity: 0.4;
+}
+
+
+/* Styled links using pseudo-classes */
+  a:link{color: #005ddb;}   /*Blue link */
+  a:visited{color: #128202;}  /*Green visited */
+  a:hover{color: #d3081c;}    /* Red hover */
+  a:active{color: #fcf300;}   /* Yellow active */
