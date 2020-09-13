@@ -19,6 +19,12 @@ header {
   background-color:  #c97c5d;
 }
 
+/* Horizontal Ruler styling */
+hr {
+  height: 3px;
+  border: none;
+  color: white;
+}
 
 /* Header font styles */
 h1, h2, h3, nav {
