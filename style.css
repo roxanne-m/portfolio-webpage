@@ -17,7 +17,6 @@ body {
 /* header & navigation */
 header {
   background-color:  #c97c5d;
-  opacity: 0.7;
 }
 
 
@@ -25,7 +24,17 @@ header {
 h1, h2, h3 {
   font-family: 'Times New Roman', Times, Serif;
   color: white;
+  text-align: center;
+  text-decoration: underline;
 }
+
+/* Paragraph styling */
+p {
+  font-family:  'Times New Roman', Times, Serif;
+  color: black;
+  line-height: 1.6;
+}
+
 
 /* Image made circular */
 .img-circle{
@@ -38,3 +47,8 @@ h1, h2, h3 {
   a:visited{color: #128202;}  /*Green visited */
   a:hover{color: #d3081c;}    /* Red hover */
   a:active{color: #fcf300;}   /* Yellow active */
+
+  /* Footer styling */
+  footer {
+    background-color: #c89f9c;
+  }
