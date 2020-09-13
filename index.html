@@ -4,6 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Portfolio Webpage</title>
+  <!-- Used to guarantee cross-browser consistency for default styles -->
+  <link href="https://cdnjs.cloudfare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+  rel="stylesheet"
+  type="text/css" />
   <!-- Link needed? -->
   </head>
 
@@ -13,12 +17,12 @@
 
     <!-- Header content -->
     <header>
-      <div class="wrapper">
+      <div <!--class="wrapper"-->>
         <h1>Roxanne Cantu</h1>
         <h2>Software Developer</h2>
         </div>
 
-        <!-- Navigation Bar -->
+        <!-- Navigation Bar within header -->
         <nav>
           <a href="#intro">Introduction |</a>
           <a href="#about"> About |</a>
@@ -26,10 +30,11 @@
         </nav>
       </header>
 
-      <!-- Introduction Section -->
-      <div class="wrapper">
+      <!-- Introduction Section & beginning of Main content -->
+      <main>
+      <div <!--class="wrapper"-->>
         <h3 id="intro">Introduction</h3>
-        <img class="img-circle" src="images/webpage-photo.jpg" alt="Roxanne sitting in a mirror room" />
+        <img <!--class="img-circle" --> src="images/webpage-photo.jpg" alt="Roxanne sitting in a mirror room" />
         <h4>Hello there! I'm Roxanne Cantu</h4>
         <p>I am a software developer residing in Silicon Valley.</p>
         <p>While living in the heart of technology I've acquired an interest in:</p>
@@ -43,7 +48,7 @@
 
         <hr>
         <!-- About me section -->
-        <div class="wrapper">
+        <div <!--class="wrapper"-->>
 
           <h3 id="about">About Me</h3>
           <p>I graduated from Texas A&M University and attained a bachelors
@@ -73,7 +78,7 @@
         <hr>
 
         <!-- Contact Me Section -->
-        <div class="wrapper">
+        <div <!--class="wrapper"-->>
           <h3 id="contact">Contact Me</h3>
           <p>Feel free to contact me on any of these platforms!</p>
 
@@ -82,10 +87,11 @@
             <li><a href="https://github.com/roxanne-m">GitHub</a></li>
           </ol>
         </div>
+        </main>
 
         <!-- Footer Content -->
         <footer>
-          <div class="wrapper">
+          <div <!--class="wrapper"-->>
             <p>© 2020 Roxanne Cantu</p>
           </div>
         </footer>
