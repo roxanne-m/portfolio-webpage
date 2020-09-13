@@ -38,8 +38,10 @@ p {
 
 /* Image made circular */
 img {
-  border-radius: 30px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* ol & ul styling */
