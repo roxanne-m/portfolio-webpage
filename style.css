@@ -10,14 +10,28 @@
 
 /* Background color of website */
 body {
-  background-color: #1b263b;  /*Darkest blue for background */
+  background-color: #b36a5e;    /* Coral colored background */
 }
+
+
+/* header & navigation */
+header {
+  background-color:  #c97c5d;
+  opacity: 0.7;
+}
+
 
 /* Header font styles */
 h1, h2, h3 {
   font-family: 'Times New Roman', Times, Serif;
   color: white;
 }
+
+/* Image made circular */
+.img-circle{
+  border-radius: 50%;
+}
+
 
 /* Styled links using pseudo-classes */
   a:link{color: #005ddb;}   /*Blue link */
