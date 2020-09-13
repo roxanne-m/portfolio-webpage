@@ -13,13 +13,11 @@ body {
   background-color: #1b263b;  /*Darkest blue for background */
 }
 
-
-/* header & navigation */
-header {
-  background-color:  #415a77;
-  opacity: 0.4;
+/* Header font styles */
+h1, h2, h3 {
+  font-family: 'Times New Roman', Times, Serif;
+  color: white;
 }
-
 
 /* Styled links using pseudo-classes */
   a:link{color: #005ddb;}   /*Blue link */
