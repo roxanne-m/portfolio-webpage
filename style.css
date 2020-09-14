@@ -3,6 +3,8 @@
   box-sizing: border-box;
 }
 
+
+
 .wrapper{
   width: 350px;
   margin: auto;
@@ -17,12 +19,18 @@ body {
 /* header & navigation */
 header {
   background-color:  #c97c5d;
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid white;
 }
 
 /* Horizontal Ruler styling */
 hr {
-  height: 3px;
+  height: 5px;
   color: white;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Header font styles */
@@ -37,6 +45,7 @@ h1, h2, h3, nav {
 p {
   font-family:  'Times New Roman', Times, Serif;
   color: black;
+  font-size: 18px;
   line-height: 1.6;
 }
 
