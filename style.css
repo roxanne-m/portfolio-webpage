@@ -41,7 +41,7 @@ hr {
 }
 
 /* Header 1 font style */
-h1 {
+h1, h2 {
   font-family:  'Times New Roman', Times, Serif;
   color: black;
   text-align: center;
@@ -50,7 +50,7 @@ h1 {
 
 
 /* Header font styles */
-h2, h3, nav {
+h3, nav {
   font-family: 'Times New Roman', Times, Serif;
   color: white;
   text-align: center;
@@ -96,7 +96,8 @@ ol li, ul li {
 
   /* Footer styling */
   footer {
+    text-align: center;
     background-color:  #9f9aa4;
     margin: 60px;
-    padding: 40px;
+    padding: 25px;
   }
