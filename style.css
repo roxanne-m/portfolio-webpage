@@ -46,6 +46,7 @@ h1, h2 {
   color: black;
   text-align: center;
   text-decoration: underline;
+  letter-spacing: 3px;
 }
 
 
@@ -55,6 +56,7 @@ h3, nav {
   color: white;
   text-align: center;
   text-decoration: underline;
+  letter-spacing: 2px;
 }
 
 /* Paragraph styling */
