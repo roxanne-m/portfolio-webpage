@@ -18,15 +18,15 @@ body {
 
 /* header & navigation */
 header {
-  background-color:  #c97c5d;
-  margin: 50px;
+  background-color:  #9f9aa4;
+  margin: 60px;
   padding: 40px;
   border: 1px solid white;
 }
 
 /* Main content styling */
 main {
-  margin: 50px;
+  margin: 60px;
   padding: 40px;
   border: 1px solid white;
 }
@@ -36,8 +36,8 @@ hr {
   height: 5px;
   color: white;
   background-color: white;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Header font styles */
@@ -67,13 +67,13 @@ img {
 
 /* ol & ul styling */
 ol, ul {
-  background: #c97c5d;
+  background: #9f9aa4;
   padding: 20px;
 }
 
 /* List styling */
 ol li, ul li {
-  background: #c89f9c;
+  background: #white;
   padding: 5px;
   margin-left: 35px;
   list-style-position: outside;
@@ -88,4 +88,6 @@ ol li, ul li {
   /* Footer styling */
   footer {
     background-color: #c89f9c;
+    margin: 60px;
+    padding: 40px;
   }
