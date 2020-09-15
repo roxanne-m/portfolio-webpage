@@ -4,24 +4,24 @@
 }
 
 
-
+/* Div wrapper class  applied to all dividers*/
 .wrapper{
   width: 350px;
   margin: auto;
 }
 
-/* Background color of website */
+/* Body Background color of website */
 body {
   background-color: #b36a5e;    /* Coral colored background */
 }
 
 
-/* header & navigation */
+/* header styling */
 header {
-  background-color:  #9f9aa4;
+  background-color:  #9f9aa4;   /* Grey color */
   margin: 60px;
   padding: 40px;
-  border: 1px solid white;
+  border: 1px solid white;      /* Border color white */
 }
 
 /* Main content styling */
@@ -40,35 +40,35 @@ hr {
   margin-bottom: 20px;
 }
 
-/* Header 1 font style */
+/* Header 1 & 2 font style */
 h1, h2 {
-  font-family:  'Times New Roman', Times, Serif;
+  font-family:  'Times New Roman', Times, Serif;    /* fallback fonts */
   color: black;
   text-align: center;
   text-decoration: underline;
-  letter-spacing: 3px;
+  letter-spacing: 3px;    /* Spacing between letters */
 }
 
 
-/* Header font styles */
+/* Header and Navigation font styles */
 h3, nav {
-  font-family: 'Times New Roman', Times, Serif;
+  font-family: 'Times New Roman', Times, Serif;   /* Fallback fonts */
   color: white;
   text-align: center;
   text-decoration: underline;
-  letter-spacing: 2px;
+  letter-spacing: 2px;    /* Spacing between letters */
 }
 
 /* Paragraph styling */
 p {
-  font-family:  'Times New Roman', Times, Serif;
+  font-family:  'Times New Roman', Times, Serif;    /* Fallback fonts */
   color: black;
   font-size: 18px;
   line-height: 1.6;
 }
 
 
-/* Image made circular */
+/* Image styling */
 img {
   display: block;
   margin-left: auto;
@@ -78,16 +78,16 @@ img {
 
 /* ol & ul styling */
 ol, ul {
-  background: #9f9aa4;
+  background: #9f9aa4;    /* Grey colored background */
   padding: 20px;
 }
 
 /* List styling */
 ol li, ul li {
-  background: white;
+  background: white;    /* White color */
   padding: 5px;
   margin-left: 35px;
-  list-style-position: outside;
+  list-style-position: outside;   /* Bullets located outside of container */
 }
 
 /* Styled links using pseudo-classes */
@@ -99,7 +99,8 @@ ol li, ul li {
   /* Footer styling */
   footer {
     text-align: center;
-    background-color:  #9f9aa4;
+    background-color:  #9f9aa4;   /* Grey color */
     margin: 60px;
     padding: 25px;
+    border: 1px solid white;
   }
