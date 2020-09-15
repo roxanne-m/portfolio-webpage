@@ -40,8 +40,17 @@ hr {
   margin-bottom: 20px;
 }
 
+/* Header 1 font style */
+h1 {
+  font-family:  'Times New Roman', Times, Serif;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
 /* Header font styles */
-h1, h2, h3, nav {
+h2, h3, nav {
   font-family: 'Times New Roman', Times, Serif;
   color: white;
   text-align: center;
@@ -73,7 +82,7 @@ ol, ul {
 
 /* List styling */
 ol li, ul li {
-  background: #white;
+  background: white;
   padding: 5px;
   margin-left: 35px;
   list-style-position: outside;
@@ -87,7 +96,7 @@ ol li, ul li {
 
   /* Footer styling */
   footer {
-    background-color: #c89f9c;
+    background-color:  #9f9aa4;
     margin: 60px;
     padding: 40px;
   }
